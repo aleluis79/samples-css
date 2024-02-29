@@ -1,0 +1,33 @@
+* {
+    color: black;
+    font-family: verdana;  
+}
+
+h3 {
+    position: relative;
+    width: fit-content;
+
+    a {
+        text-decoration: none;
+    }
+
+    a::after {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 0;
+        width: 0%;
+        border-bottom: solid 2px gold;
+    }
+
+    a:hover::after {  
+        width: 100%;
+        transition: .5s;
+    }
+
+}
+
+p::before {
+    content: "👉";
+    font-size: 30px;
+}
