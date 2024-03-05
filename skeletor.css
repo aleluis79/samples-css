@@ -1,0 +1,40 @@
+@keyframes placeholder {
+    0% {
+        filter: brightness(70%);
+    }
+    25% {
+        filter: brightness(75%);
+    }
+    50% {
+        filter: brightness(80%);
+    }
+    75% {
+        filter: brightness(85%);
+    }
+    100% {
+        filter: brightness(90%);
+    }
+}
+
+.skeletor {  
+    height: 30px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;  
+    animation: 0.5s infinite alternate placeholder;
+}
+
+.sk-short {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.sk-large {
+    width: 800px;
+}
+
+.sk-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+}

@@ -1,1 +1,1 @@
-### Samples of links and alerts in html and plain css
+### Samples of links, alerts and skeletors in html and plain css
