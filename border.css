@@ -1,0 +1,33 @@
+.dark {
+    background-color: black;
+    padding: 50px;
+
+    article {
+      font-family: Arial, Verdana;
+      font-size: 16pt;
+      color: white;
+      padding: 16px;
+      border-radius: 5px;
+      border: 2px solid #0000;
+      background:
+        linear-gradient(black, #222) padding-box,
+        linear-gradient(#09f, white) border-box;
+    }
+}
+
+.light {
+  background-color: white;
+  padding: 50px;
+
+  article {
+    font-family: Arial, Verdana;
+    font-size: 16pt;
+    color: #333;
+    padding: 16px;
+    border-radius: 5px;
+    border: 2px solid #0000;
+    background:
+      linear-gradient(#eee, snow) padding-box,
+      linear-gradient(#09f, gray) border-box;
+  }
+}
